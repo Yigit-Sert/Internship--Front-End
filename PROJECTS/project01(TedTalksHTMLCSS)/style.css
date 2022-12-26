@@ -1,0 +1,460 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*********** RESET CODE *************/
+
+.container {
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    width: 250px;
+    height: 60px;
+    background: azure;
+    float: left;
+    text-align: center;
+    font: bold 12px tahoma;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.logo span {
+    font: bold 25px fantasy;
+    line-height: 60px;
+    padding: 0 0 0 50px;
+}
+
+.menu {
+    width: auto;
+    background: azure;
+    float: left;
+    margin: 0 0 0 220px;
+    text-transform: uppercase;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    height: 60px;
+    text-align: center;
+    padding: 0 15px;
+    font: bold 12px tahoma;
+    line-height: 60px;
+    color: #000;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background: rgb(201, 202, 202);
+}
+
+.menu .membership {
+    display: block;
+    float: left;
+    width: 160px;
+    height: 40px;
+    background: #f00;
+    margin: -50px 0 0 520px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+    font: bold 15px tahoma;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.menu .membership:hover {
+    background: rgb(178, 0, 0);
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    float: left;
+    background: azure;
+}
+
+nav {
+    width: 100%;
+    height: 240px;
+    float: left;
+    background: rgb(58, 58, 58);
+}
+
+/****************************************/
+section {
+    width: 1000px;
+    height: auto;
+    padding: 35px 15px;
+    margin: auto;
+}
+
+section article {
+    width: 500px;
+    float: left;
+    font: 18px tahoma;
+    color: #fff;
+    line-height: 23px;
+}
+
+section article h2 {
+    font: bold 15px tahoma;
+    color: #fff;
+}
+
+section #join {
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: -50px 0 0 0;
+    text-align: center;
+    float: left;
+    color: #fff;
+    text-transform: capitalize;
+    background: #f00;
+    font: bold 15px tahoma;
+    line-height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+section #join:hover {
+    background: rgb(178, 0, 0);
+}
+
+/****************************************/
+#sec1 {
+    width: 1000px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 35px 15px;
+}
+
+#sec1 article {
+    width: 500px;
+    float: left;
+    font: 18px tahoma;
+    color: #fff;
+    line-height: 23px;
+}
+
+#sec1 article h2 {
+    font: bold 15px tahoma;
+    color: #fff;
+}
+
+#sec1 article span {
+    font: bold 25px tahoma;
+}
+
+#sec1 #join {
+    width: 120px;
+    height: 50px;
+    display: block;
+    margin: 20px 200px 0 0;
+    text-align: center;
+    float: left;
+    color: #fff;
+    text-transform: capitalize;
+    background: #f00;
+    font: bold 15px tahoma;
+    line-height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#sec1 #join:hover {
+    background: rgb(178, 0, 0);
+}
+
+/****************************************/
+#sec1 aside img {
+    width: auto;
+    height: 280px;
+    float: right;
+}
+
+main {
+    width: 100%;
+    height: 1000px;
+    float: left;
+    background: azure;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+
+#sec2 article {
+    width: 300px;
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+#sec2 article h1 {
+    font: 15px tahoma;
+    color: rgb(129, 129, 129);
+    line-height: 40px;
+}
+
+#sec2 article p {
+    font: ;
+}
+
+#sec2 p:hover{
+    opacity: 0.75;
+}
+
+#sec2in2 article {
+    margin: 30px 50px;
+}
+
+/****************************************************/
+
+#interests {
+    width: 100%;
+    height: 260px;
+    padding: 40px 80px;
+    float: left;
+    background: url(images/background_interests.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    color: #fff;
+    font: 13px tahoma;
+}
+
+#interests h1 {
+    font: 17px arial;
+}
+
+#interests_list ul {
+    float: left;
+}
+
+#have_an_account {
+    float: left;
+    margin: 40px 0 0 10px;
+}
+
+#interests_list ul li {
+    display: block;
+    float: left;
+    margin: 10px 20px;
+    font: 14px tahoma;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: rgba(240, 255, 255, 0.155);
+    box-shadow: 5px 5px 15px #000;
+    text-transform: capitalize;
+}
+
+#interests_list ul li:hover {
+    background: rgba(240, 255, 255, 0.517);
+    border: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#next_question {
+    width: 150px;
+    height: 50px;
+    display: block;
+    text-align: center;
+    float: left;
+    margin: 20px 0 0 0;
+    color: #fff;
+    text-transform: capitalize;
+    background: #f00;
+    font: bold 15px tahoma;
+    line-height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#next_question:hover {
+    background: rgb(178, 0, 0);
+}
+
+#about_ted article {
+    width: 1000px;
+    height: 280px;
+    text-align: justify;
+    margin: 0 auto;
+    color: #000;
+    font: 13px tahoma;
+}
+
+#about_ted article h1 {
+    text-align: center;
+    font-size: x-large;
+    color: #000;
+}
+
+#about_ted article p {
+    width: 500px;
+    margin: 0 auto;
+    font: 14px tahoma;
+}
+
+footer {
+    width: 100%;
+    float: left;
+    margin: 350px auto 0 auto;
+    height: 220px;
+    background: rgb(239, 239, 239);
+}
+
+
+footer section ul li a {
+    width: 25%;
+    margin: 10px auto;
+    display: block;
+    float: left;
+    color: #000;
+    text-decoration: none;
+}
+
+footer section ul li a:hover {
+    text-decoration: underline;
+}
+
+#bottom {
+    width: 100%;
+    height: 110px;
+    border-top: 1px solid rgb(177, 177, 177);
+    text-align: center;
+    margin: 50px 0 0 0;
+
+}
