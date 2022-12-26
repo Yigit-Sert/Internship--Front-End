@@ -1,0 +1,212 @@
+/************** Row1 **************/
+body div div#row1 {
+    background-image: url(images/background_lightBulb.png);
+    background-size: cover;
+}
+
+body div div div#three_keywords p {
+    font: bold 5rem fantasy;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px #000000;
+    color: azure;
+    margin: 16rem 0 0 0;
+}
+
+body div div div#row1_paragraph p {
+    font: 1rem tahoma;
+    color: azure;
+    margin: 24rem 0 0 0;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+body div div div#row1_paragraph button {
+    font: bold 1rem tahoma;
+    color: azure;
+    border: 0.3rem solid #f7cd94;
+    padding: 1rem;
+    margin: 0 0 2.5rem 0;
+}
+
+body div div div#row1_paragraph button:hover {
+    background: #f7cd94;
+}
+
+/************** Row2 **************/
+body div div#row2 {
+    padding: 5rem 0 5rem 0;
+}
+
+body div div#row2 {
+    background-color: #000000;
+    color: #fff;
+}
+
+body div div div div#article_col_md_4 {
+    margin-bottom: 2rem;
+    border-bottom: 0.2rem solid white;
+}
+
+body div div div div#article_col_md_4 h1 {
+    font-family: fantasy;
+}
+
+body div div div div#article_bottom {
+    border-left: 0.5rem solid #f7cd94;
+    padding: 0 0 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+body div div#row2 img {
+    margin: 2px;
+}
+
+/************** Row3 **************/
+body div div#row3 {
+    padding: 8rem 2rem 8rem 2rem;
+}
+
+body div div#row3 div#aside_row3 {
+    text-align: end;
+    border-bottom: 0.1rem solid #333;
+}
+
+body div div#row3 div#aside_row3 h2 {
+    font: 3rem fantasy;
+    letter-spacing: 2px;
+}
+
+body div div#row3 div#aside_row3_part2 {
+    margin: 2rem 0 0 0;
+    text-align: end;
+    border-left: 0.5rem solid #f7cd94;
+}
+
+/************** Row4 **************/
+body div div#row4 {
+    background: url("https://i.ytimg.com/vi/5a9E3n_VZRQ/maxresdefault.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 13rem 0;
+    text-align: center;
+}
+
+body div div#row4 h1 {
+    font-family: fantasy;
+    font-size: 5rem;
+}
+
+body div div#row4 h5 {
+    font-size: 15px;
+}
+
+body div div#row4 div.row {
+    margin: 0 auto;
+}
+
+/************** Row5 **************/
+body div div#row5 {
+    color: white;
+    background-color: #000000;
+    padding: 7rem;
+}
+
+body div div#row5 div#top_content_row5 {
+    border-right: 0.5rem solid #f7cd94;
+}
+
+body div div#row5 h2 {
+    font-family: fantasy;
+    letter-spacing: 1px;
+}
+
+body div div#row5 div.col-md-6 p.job_row5 {
+    font-size: smaller;
+}
+
+body div div#row5 div.col-md-6 p.author_row5 {
+    font-size: larger;
+}
+
+/************** Row6 **************/
+body div div#row6 {
+    padding: 7rem;
+    color: #fff;
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
+        /* bottom, image */
+        url(https://images01.nicepage.io/69/31/69312411a1218abc92167661e5553982.jpeg);
+    background-size: cover;
+}
+
+body div div#row6 h2 {
+    font-family: fantasy;
+}
+
+body div div#row6 a {
+    color: #f7cd94;
+    text-decoration: none;
+}
+
+body div div#row6 iframe {
+    width: 25rem;
+    height: 25rem;
+}
+
+/************** Row7 **************/
+body div div#row7 {
+    padding: 2rem 7rem;
+}
+
+body div div#row7 h1 {
+    font-family: fantasy;
+    font-size: 7rem;
+}
+
+body div div#row7 p {
+    font-weight: bold;
+}
+
+body div div#row7 div#icons {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 0.2rem solid #000;
+}
+
+body div div#row7 div#icons i {
+    margin: 0 10px;
+    color: #000000;
+}
+
+/************** Footer **************/
+footer {
+    background-color: #333;
+}
+
+body footer div div ul {
+    margin: auto 0;
+}
+
+body footer div div ul li {
+    display: block;
+    float: left;
+    list-style-type: none;
+    margin: 2px;
+    color: white;
+    line-height: 75px;
+}
+
+body footer div div ul li a {
+    font: 0.938rem tahoma;
+    color: #f7cd94;
+}
+
+body footer div div ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+div#divToBeAligned {
+    margin: 0 auto;
+}

@@ -1,0 +1,17 @@
+div#pageAdv p#about {
+    color: #949494;
+}
+
+a {
+    color: black;
+    text-transform: capitalize;
+}
+
+a.footer_links {
+    color: white;
+}
+
+img#midjourney_logo {
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}

@@ -1,0 +1,756 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*********** RESET CODE *************/
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    height: 2550px;
+    background: white;
+    box-shadow: 2px 0 10px rgb(190, 190, 190), -2px -2px 10px rgb(190, 190, 190);
+}
+
+header {
+    float: left;
+}
+
+header #topMenu {
+    width: 1091px;
+    height: 30px;
+    float: left;
+    background: rgb(243, 243, 243);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(196, 196, 196);
+    color: rgb(116, 116, 116);
+    font: 12px tahoma;
+    padding: 0 0 0 9px;
+    line-height: 30px;
+}
+
+header #hotNews {
+    width: 130px;
+    height: 32px;
+    font: 12px tahoma;
+    line-height: 32px;
+    text-align: center;
+    background: rgb(222, 0, 0);
+    color: white;
+    margin: -31px 0 0 200px;
+}
+
+header div #slidingNews {
+    float: left;
+    width: 400px;
+    height: 32px;
+    font: 12px tahoma;
+    line-height: 32px;
+    text-align: left;
+    margin: -32 0 0 337px;
+    color: black;
+}
+
+#arrows {
+    width: 48px;
+    height: 22px;
+    float: left;
+    margin: -28px 0 0 740px;
+}
+
+#arrowLeft {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 3px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#arrowLeft:hover {
+    background: rgb(222, 0, 0);
+    color: white;
+}
+
+#arrowRight {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 3px;
+    margin: 0 0 0 4px;
+    text-align: center;
+    line-height: 20px;
+}
+
+#icons {
+    height: 30px;
+    float: left;
+    margin: -31px 0 0 800px;
+}
+
+#arrowRight:hover {
+    background: rgb(222, 0, 0);
+    color: white;
+}
+
+header #frpnet {
+    float: left;
+    width: auto;
+    height: 80px;
+    padding: 40px 20px;
+    cursor: pointer;
+}
+
+nav {
+    width: 1100px;
+    height: 60px;
+    float: left;
+    background: rgb(51, 51, 51);
+}
+
+nav #mainMenu {
+    width: 768px;
+    height: 60px;
+    background: rgb(255, 166, 0);
+    margin: 0 0 0 20px;
+}
+
+nav div ul {
+    margin: -60px 0 0 60px;
+}
+
+nav div ul li a {
+    display: block;
+    float: left;
+    font: 14px tahoma;
+    text-align: center;
+    line-height: 60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: rgb(51, 51, 51);
+    padding: 0 10px;
+    color: white;
+    letter-spacing: 0.003px;
+}
+
+nav div ul li a:hover {
+    background-color: rgb(255, 166, 0);
+}
+
+#nightMode {
+    width: 25px;
+    float: right;
+    margin: -43px 220px 0 0;
+    position: relative;
+}
+
+#searchBox {
+    width: 160px;
+    height: 60px;
+    position: relative;
+    margin: -60px 0 0 890px;
+    border-right: 1px solid rgb(94, 94, 94);
+    border-left: 1px solid rgb(94, 94, 94);
+    font: 14px tahoma;
+    text-align: left;
+    line-height: 60px;
+    color: rgb(190, 190, 190);
+    padding: 0 0 0 10px;
+}
+
+#searchBox input[type=text] {
+    width: 130px;
+    margin: 19px 0 0 0;
+    border: none;
+    background: rgb(51, 51, 51);
+}
+
+#searchBox button {
+    background: url(images/icons8-search-16.png) no-repeat;
+    background-position: bottom;
+    width: 25px;
+    height: 25px;
+    border: none;
+    margin: 10px 0 -25px 0;
+    cursor: pointer;
+}
+
+#searchIcon {
+    width: 15px;
+    margin: 8px 0 0 40px;
+}
+
+/***************************************************************************/
+/***************************************************************************/
+main {
+    float: left;
+    width: 1060px;
+    height: auto;
+    padding: 20px 20px;
+}
+
+main div#news {
+    width: 1060px;
+    height: 450px;
+}
+
+main div.mainNews {
+    width: 500px;
+    height: 410px;
+    background: url(images/eragon.jpeg);
+    float: left;
+    padding: 20px;
+}
+
+main div #bigNews {
+    float: left;
+}
+
+.yellowTitle {
+    width: max-content;
+    height: 20px;
+    font: 12px tahoma;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    background: rgb(255, 166, 0);
+    padding: 0 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    /*opacity: 0.9;
+    transition: 0.3s;*/
+}
+
+.yellowTitle:hover {
+    background: rgb(230, 149, 0);
+    /*opacity: 1;*/
+}
+
+main div div div div#bigText {
+    display: block;
+    margin: 310px 0 0 0;
+    font: 13px tahoma;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+}
+
+main div div div div#bigText:hover {
+    text-shadow: 5px 10px 15px #888888;
+}
+
+main div div div div#bigText h1 {
+    font: bold 24px tahoma;
+    text-transform: capitalize;
+}
+
+#fourNews {
+    width: 510px;
+    height: 450px;
+    margin: -20px 0 0 530px;
+    /*background: #b89090;*/
+    padding: 0;
+}
+
+main div #mininews1 {
+    padding: 20px;
+    float: left;
+    margin: -20px 0 0 0;
+    width: 210px;
+    height: 180px;
+    background: url(images/news1.jpg);
+}
+
+main div #mininews2 {
+    padding: 20px;
+    float: left;
+    margin: -20px 0 0 10px;
+    width: 210px;
+    height: 180px;
+    background: url(images/news2.jpg);
+}
+
+main div #mininews4 {
+    padding: 20px;
+    float: left;
+    margin: 10px 0 0 0;
+    width: 210px;
+    height: 180px;
+    background: url(images/news4.jpg);
+}
+
+main div #mininews5 {
+    padding: 20px;
+    float: left;
+    margin: 10px 0 0 10px;
+    width: 210px;
+    height: 180px;
+    background: url(images/news3.jpeg);
+}
+
+main div div div#fourNews div.bigText {
+    display: block;
+    margin: 45px 0 0 0;
+    font: 12px tahoma;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+}
+
+main div div div#fourNews div.bigText:hover {
+    text-shadow: 5px 10px 15px #888888;
+}
+
+main div div div#fourNews div.bigText h1 {
+    font: bold 18px tahoma;
+    text-transform: capitalize;
+}
+
+/**************************************************************************************/
+
+main section {
+    width: 648px;
+    /*      max width 750px      */
+    height: auto;
+    margin: 30px 0 0 0;
+    padding: 50px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    float: left;
+}
+
+main section div#whole_content div#topMenu {
+    width: 700px;
+    height: 35px;
+    margin: -30px 0 0 0;
+}
+
+main section div#whole_content div#topMenu ul li span {
+    font: bold 16px arial;
+    letter-spacing: 1px;
+    padding: 0 90px 0 0;
+    line-height: 30px;
+}
+
+main section div#whole_content div#topMenu ul li {
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 0 5px;
+    cursor: pointer;
+    margin: 2px;
+    text-transform: capitalize;
+    font: 13px tahoma;
+    line-height: 30px;
+}
+
+main section div#whole_content div#topMenu ul li:hover {
+    background: rgb(255, 166, 0);
+    color: white;
+}
+
+main section div#whole_content div#news_n_essays {
+    width: 650px;
+    height: 1000px;
+}
+
+main section div#whole_content div#news_n_essays div.content_title {
+    font: bold 24px tahoma;
+    margin: 10px 0 0 0;
+}
+
+main section div#whole_content div#news_n_essays div.content_title a {
+    text-decoration: none;
+    color: #222222;
+}
+
+main section div#whole_content div#news_n_essays div.content_title a:hover {
+    text-shadow: 1px 1px 5px #dfdfdf;
+}
+
+main section div#whole_content div#news_n_essays div.exp_text {
+    font: 14px tahoma;
+}
+
+main section div#whole_content div#news_n_essays div.left_content .yellowTitle {
+    float: inline-end;
+    float: right;
+    margin: 152px 5px 5px 290px;
+}
+
+main section div#whole_content div#news_n_essays div.right_content .yellowTitle {
+    float: inline-end;
+    float: right;
+    margin: 152px 5px 5px 290px;
+}
+
+main section div#whole_content div#news_n_essays div.left_content {
+    width: 315px;
+    height: 370px;
+    float: left;
+    background: url(images/haberler.jpg) no-repeat;
+    background-size: 315px;
+}
+
+main section div#whole_content div#news_n_essays div.left_content div.date {
+    font: 10px tahoma;
+    color: #888888;
+    float: left;
+}
+
+main section div#whole_content div#news_n_essays div.right_content {
+    width: 315px;
+    height: 370px;
+    background: url(images/haberler2.jpg) no-repeat;
+    background-size: 315px;
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+main section div#whole_content div#news_n_essays div.right_content div.date {
+    font: 10px tahoma;
+    color: #888888;
+    float: left;
+}
+
+/******************************************************************************************************/
+
+/******************************************************************************************************/
+main aside {
+    width: 280px;
+    height: 240px;
+    float: left;
+    margin: 30px 0 0 18px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    font: bold 14px tahoma;
+    padding: 20px 5px 0 5px;
+}
+
+main aside div#followUsTop {
+    width: 290px;
+    height: 25px;
+    float: left;
+    text-align: center;
+    line-height: 25px;
+}
+
+main aside a {
+    display: block;
+    float: left;
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+main aside a span {
+    font: 12px tahoma;
+    text-transform: capitalize;
+}
+
+
+main aside#twitter {
+    height: 570px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    font: 14px tahoma;
+    padding: 20px 5px 0 5px;
+}
+
+main aside#twitter div span {
+    font: bold 15px tahoma;
+    text-align: center;
+}
+
+main aside#twitter ul {
+    list-style: disc inside;
+    color: #888888;
+    margin: 10px;
+}
+
+main aside#twitter ul li {
+    margin: 30px 0;
+}
+
+main aside#twitter ul li span {
+    float: right;
+    font: 10px tahoma;
+}
+
+main aside div#followUsOnTwitter {
+    width: 270px;
+    height: 30px;
+    background: #000000;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font: 13px tahoma;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+main aside#last_comments {
+    height: auto;
+}
+
+main aside#last_comments div span {
+    font: bold 15px tahoma;
+    text-align: center;
+}
+
+main aside#last_comments ul {
+    color: #888888;
+    margin: 10px;
+    font: 14px tahoma;
+}
+
+main aside#last_comments ul li {
+    margin: 30px 0;
+}
+
+
+
+/******************************************************************************************************/
+/******************************************************************************************************/
+/******************************************************************************************************/
+footer {
+    float: left;
+    width: 100%;
+    height: 458px;
+    background: #292929;
+}
+
+footer section {
+    width: 100%;
+    height: 125px;
+    background: #222222;
+    margin: 221px 0 0 0;
+    padding: 5px 0 0 0;
+}
+
+footer table {
+    display: block;
+    width: auto;
+    height: 80px;
+    color: #fff;
+    float: right;
+    font: 13px tahoma;
+    margin: -60px 50px 0 0;
+}
+
+footer div#date {
+    width: 110px;
+    height: 20px;
+    font: bold 14px tahoma;
+    color: #fff;
+    float: right;
+    margin: 20px 130px 0 0;
+}
+
+footer table th {
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: #222222;
+}
+
+footer table tr {
+    text-align: center;
+    line-height: 40px;
+    color: #888888;
+}
+
+footer table tr:nth-child(even) {
+    background-color: #353535;
+}
+
+footer table tr:nth-child(odd) {
+    background-color: #303030;
+}
+
+footer table td.past {
+    color: #fff;
+    cursor: pointer;
+}
+
+footer table td#today {
+    color: #fff;
+    background: rgb(255, 166, 0);
+    cursor: pointer;
+}
+
+/****************************************************************************************************************/
+
+
+footer section div {
+    width: 100%;
+    height: 20px;
+    font: 12px tahoma;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+footer section div#list {
+    margin: 12px auto 0 430px;
+}
+
+footer section div#list ul li {
+    display: block;
+    float: left;
+    font: 12px tahoma;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+footer section div#list ul li:hover {
+    color: rgb(255, 166, 0);
+}
+
+footer section div#bottomMenu img {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+}
+
+footer section div#bottomMenu img:hover {
+    background: rgb(255, 166, 0);
+}

@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  </head>
+
+
+<!-----------------------------------------NAV BAR START---------------------------------------------->
+  <nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">BOOTSTRAP 5</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="#home" class="nav-link active">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a href="#blog" class="nav-link active">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a href="#jumbotron" class="nav-link active">İçerik</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sik-sorulanlar" class="nav-link active">Sık Sorulanlar</a>
+          </li>
+        </ul>
+
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown">Giriş Yap</button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li>
+            <a class="dropdown-item" href="#">Giriş Yap</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Kayıt Ol</a>
+          </li>
+          <li>
+            <a class="dropdown-item" href="#">Şifremi Unuttum</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+  </nav>
+<!-----------------------------------------NAV BAR FINISH---------------------------------------------->
+  <body>
+
+<!-----------------------------------------SLIDER START---------------------------------------------->
+    <div class="container-fluid">
+      <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide mt-2" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" class="active" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Slider Resmi">
+            </div>
+            <div class="carousel-item">
+              <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Slider Resmi">
+            </div>
+            <div class="carousel-item">
+              <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="Slider Resmi">
+            </div>
+          </div>
+
+          <button type="button" class="carousel-control-prev" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+
+          <button type="button" class="carousel-control-next" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+
+        </div>
+      </section>
+    </div>
+<!-----------------------------------------SLIDER FINISH---------------------------------------------->
+
+<!-----------------------------------------BLOG START---------------------------------------------->
+<div id="blog" class="container">
+  <section class="mt-2 p-4">
+    <div class="d-flex justify-content-center p-4">
+      <h2>Blog</h2>
+    </div>
+
+    <div class="row">
+      <div class="card col-md-4 p-0">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="blog resmi">
+        <div class="card-body">
+          <h5 class="card-title">Kart Başlığı</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+
+      <div class="card col-md-4 p-0">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="blog resmi">
+        <div class="card-body">
+          <h5 class="card-title placeholder-glow">
+            <span class="placeholder col-9"></span>
+          </h5>
+          <p class="card-text placeholder-glow">
+            <span class="placeholder col-12"></span>
+            <span class="placeholder col-12"></span>
+            <span class="placeholder col-7"></span>
+            <span class="placeholder col-8"></span>
+            <span class="placeholder col-8"></span>
+            <span class="placeholder col-3"></span>
+          </p>
+          <a href="#" class="btn btn-primary disabled placeholder col-6"></a>
+        </div>
+      </div>
+
+      <div class="card col-md-4 p-0">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid" alt="blog resmi">
+        <div class="card-body">
+          <h5 class="card-title">Kart Başlığı</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>  
+</div>
+<!-----------------------------------------BLOG FINISH---------------------------------------------->
+
+<!-----------------------------------------JUMBOTRON START---------------------------------------------->
+    <section id="jumbotron">
+      <div class="container-fluid">
+        
+
+        <div class="container-fluid py-5">
+        <div class="p-5 mb-4 bg-light rounded-3">
+          <h1 class="display-5 fw-bold d-flex justify-content-center">Büyük Başlık</h1>
+          <p class="col-md-12 text-center fs-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat.</p>
+          <div class="d-flex justify-content-center">
+              <a class="btn btn-primary btn-lg d-flex justify-content-center" href="#">Sayfaya Git</a>
+          </div>
+        </div>
+        </div>
+
+        <div class="row align-item-md-stretch">
+
+
+          <div class="col-md-6">
+            <div class="rounded-3 bg-dark text-white p-5 h-100">
+              <h2>H2 Büyüklüğünde Başlık</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+              <button class="btn btn-outline-light" type="button">Buton</button>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="rounded-3 bg-light border p-5 h-100">
+              <h2>H2 Büyüklüğünde Başlık</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+              <button class="btn btn-outline-dark" type="button">Buton</button>
+            </div>
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </section>
+<!-----------------------------------------JUMBOTRON FINISH---------------------------------------------->
+
+<!-----------------------------------------SIK SORULAN SORULAR START---------------------------------------------->
+  <div id="sik-sorulanlar" class="container" style="margin-bottom: 100px !important;">
+    <section>
+      <div class="d-flex justify-content-center p-4">
+        <h2>Sık Sorulanlar</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="https://via.placeholder.com/300x400" class="img-fluid rounded-start" alt="card images">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Kart Başlığı</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor </p>
+              </div>
+            </div>
+          </div>  
+        </div>
+
+
+        <div class="col-md-8">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">Sık Sorulan Sorular 01</button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">Sık Sorulan Sorular 02</button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+              
+            </div>
+              <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">Sık Sorulan Sorular 02</button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+<!-----------------------------------------SIK SORULAN SORULAR FINISH---------------------------------------------->
+
+<!-----------------------------------------FOOTER FINISH---------------------------------------------->
+<section>
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <div class="container">
+      <a href="#" class="navbar-brand">BOOTSTRAP 5</a>
+      <p class="ms-auto">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+  </nav>
+</section>
+<!-----------------------------------------FOOTER FINISH---------------------------------------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!------------------   text   ------------------>

@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Facebook Clone - project05</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!--------------  Bootstrap Icon  -------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!--------------  CSS  -------------->
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <style>
+        li {
+            list-style-type: none;
+        }
+
+        li a {
+            text-decoration: none;
+            padding: 0 5px;
+            color: rgb(97, 97, 97);
+            font: 11px tahoma;
+        }
+
+        body div div div form div div button#girisYap {
+            font-weight: 700;
+            font-size: large;
+        }
+
+        div#forget_password {
+            text-align: center;
+            margin: 4px 0;
+        }
+
+        div#forget_password a {
+            text-decoration: none;
+        }
+
+        div#forget_password a:hover {
+            text-decoration: underline;
+        }
+
+        div#form_page {
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #d7d7d7, 0 0 10px #d7d7d7;
+        }
+
+        div#create_page a {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        div#create_page a:hover {
+            text-decoration: underline;
+        }
+
+        div#main_all {
+            margin: 0 auto 200px auto;
+        }
+
+        body div#all {
+            padding: 140px 0 0 0;
+        }
+
+        input::placeholder {
+            font: 15px sans-serif;
+        }
+    </style>
+
+    <!--------------  CSS  -------------->
+</head>
+
+<body style="background-color:rgb(242, 242, 242);">
+    <div id="all" class="container-fluid pb-4">
+        <div id="main_all" class="col col-md-10">
+            <div id="rowOne" class="row align-items-md-stretch">
+                <div class="col-md-7 p-5">
+                    <div class="col col-md-3"><img class="img" src="img/facebook.svg" alt="facebook image" width="350"
+                            style="margin: 0 0 0 -30px;">
+                    </div>
+                    <div class="col-md-10">
+                        <h4 style="font-weight: 400; font-size: 32px;">Facebook tanıdıklarınla iletişim kurmanı ve
+                            hayatında olup
+                            bitenleri paylaşmanı
+                            sağlar.
+                        </h4>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="form_page" class="col col-md-12 pb-4 pt-2 px-3">
+                        <form>
+                            <div class="form-group row my-2">
+                                <div class="col-sm-10 w-100">
+                                    <input type="text" class="form-control form-control-lg"
+                                        placeholder="E-posta veyaTelefon Numarası">
+                                </div>
+                            </div>
+                            <div class="form-group row my-2">
+                                <div class="col-sm-10 w-100 my-2">
+                                    <input type="password" class="form-control form-control-lg" placeholder="Şifre">
+                                </div>
+                            </div>
+                            <div class="form-group row my-2">
+                                <div class="col-sm-12 ">
+                                    <!--Making the button type submit creates inorder.-->
+                                    <button id="girisYap" class="btn btn-primary w-100" type="button">Giriş
+                                        Yap</button>
+                                </div>
+                                <div id="forget_password" class="col-sm-12 mt-3"><a href="index.html">Şifreni mi
+                                        unuttun?</a></div>
+                            </div>
+                            <hr>
+                            <div class="col-sm-12 text-center">
+                                <!--Making the button type submit creates inorder.-->
+                                <button class="btn btn-success" type="button">Yeni Hesap Oluştur</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!---->
+                <div id="create_page" class="col-md-10 mt-3 pb-4 text-end" style="font-size: 13px;">
+                    Ünlü biri, marka veya işletme için <a href="index.html"> Sayfa oluştur</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------------  Footer  -------------->
+    <section class="container-fluid" style="background-color:white;"><br>
+        <div id="footer_top_links" class="container w-100">
+            <ul>
+                <li>
+                    <a href="index.html">Türkçe</a>
+                    <a href="index.html">Kurdî (Kurmancî)</a>
+                    <a href="index.html">العربية</a>
+                    <a href="index.html">English (UK)</a>
+                    <a href="index.html">Zaza</a>
+                    <a href="index.html">Deutsch</a>
+                    <a href="index.html">Русский</a>
+                    <a href="index.html">Français (France)</a>
+                    <a href="index.html">فارسی</a>
+                    <a href="index.html">Español</a>
+                    <a href="index.html">Português (Brasil)</a>
+                    <button type="button" class="btn btn-sm border-secondary">
+                        <i class="bi bi-plus"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <hr class="">
+        <div class="container w-100">
+            <ul>
+                <li>
+                    <a href="index.html">Kaydol</a>
+                    <a href="index.html">Giriş Yap</a>
+                    <a href="index.html">Messenger</a>
+                    <a href="index.html">Facebook</a>
+                    <a href="index.html">Yerler</a>
+                    <a href="index.html">Oyunlar</a>
+                    <a href="index.html">Marketplace</a>
+                    <a href="index.html">Facebook Pay</a>
+                    <a href="index.html">Oculus</a>
+                    <a href="index.html">Portal</a>
+                    <a href="index.html">Bulletin</a>
+                    <a href="index.html">Yerel</a>
+                    <a href="index.html">Bağış Kampanyaları</a>
+                    <a href="index.html">Hizmetler</a>
+                    <a href="index.html">Oy Kullanma</a>
+                    <a href="index.html">Bilgi Merkezi</a>
+                    <a href="index.html">Gruplar</a>
+                    <a href="index.html">Hakkımızda</a>
+                    <a href="index.html">Reklam Oluştur</a>
+                    <a href="index.html">Sayfa Oluştur</a>
+                    <a href="index.html">Geliştiriciler</a>
+                    <a href="index.html">Kariyer Olanakları</a>
+                    <a href="index.html">Gizlilik</a>
+                    <a href="index.html">Çerezler</a>
+                    <a href="index.html">Ad Choices</a>
+                    <a href="index.html">Koşullar</a>
+                    <a href="index.html">Yardım</a>
+                    <a href="index.html">Contact</a>
+                    <a href="index.html">Uploading & Non-Users</a>
+                </li>
+            </ul>
+        </div><br>
+    </section>
+    <!--------------  Footer  -------------->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
